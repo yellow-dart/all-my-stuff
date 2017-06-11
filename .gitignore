@@ -3,3 +3,5 @@
 ################################################################################
 
 /GamesList/GamesListWeb/obj
+/GamesList/GamesListWeb/bin/Debug/netcoreapp1.1
+*.user
