@@ -5,3 +5,5 @@
 /GamesList/GamesListWeb/obj
 /GamesList/GamesListWeb/bin/Debug/netcoreapp1.1
 *.user
+/GamesList/GamesListWeb/client_secret.json
+/GamesList/GamesList-e40e6b4c5be9.json
