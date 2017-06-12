@@ -31,7 +31,7 @@ namespace GamesListWeb
             });
         }
 
-        public string ReadEntries(string sheet, string columnRange)
+        public IEnumerable<Nes> ReadEntries(string sheet, string columnRange)
         {
             SetupCredentials();
 
@@ -67,7 +67,7 @@ namespace GamesListWeb
                     something.Add(nes);
                 }
             }
-            return something.ToString();
+            return something;
         }
     }
 }
